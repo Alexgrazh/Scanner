@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainNavigation" customModule="iScanner" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MDA-Pa-QSH">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2M-XV-FbF">
+                    <rect key="frame" x="0.0" y="0.0" width="397" height="115"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSD-lM-UmY">
+                            <rect key="frame" x="16" y="76" width="27" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="27" id="HhI-hH-GNz"/>
+                                <constraint firstAttribute="width" constant="27" id="T8L-pk-6WW"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="account"/>
+                            <connections>
+                                <action selector="accountAction:" destination="-1" eventType="touchUpInside" id="XZD-Z6-ZAb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXj-Bn-8UR">
+                            <rect key="frame" x="350" y="76" width="27" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="27" id="b3V-CP-b8N"/>
+                                <constraint firstAttribute="height" constant="27" id="fv4-AJ-e4t"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="lAJ-XP-dn6"/>
+                                <constraint firstAttribute="width" constant="27" id="pZ1-fz-1L0"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="icon2"/>
+                            <connections>
+                                <action selector="saveButton:" destination="-1" eventType="touchUpInside" id="ta6-zo-LTs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1589873433" green="0.189032793" blue="0.46262753010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="PSD-lM-UmY" secondAttribute="bottom" constant="12" id="ET6-y8-Ua5"/>
+                        <constraint firstAttribute="trailing" secondItem="IXj-Bn-8UR" secondAttribute="trailing" constant="20" id="ND1-b7-zKm"/>
+                        <constraint firstItem="IXj-Bn-8UR" firstAttribute="leading" secondItem="PSD-lM-UmY" secondAttribute="trailing" constant="307" id="enP-uJ-hfx"/>
+                        <constraint firstItem="PSD-lM-UmY" firstAttribute="top" secondItem="Z2M-XV-FbF" secondAttribute="top" constant="76" id="rGN-Pv-XtD"/>
+                        <constraint firstItem="PSD-lM-UmY" firstAttribute="leading" secondItem="Z2M-XV-FbF" secondAttribute="leading" constant="16" id="ufT-Fh-j8k"/>
+                        <constraint firstItem="IXj-Bn-8UR" firstAttribute="top" secondItem="Z2M-XV-FbF" secondAttribute="top" constant="76" id="uui-wb-XRA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="enN-Ci-Cx9"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Z2M-XV-FbF" firstAttribute="leading" secondItem="enN-Ci-Cx9" secondAttribute="leading" id="FJX-Hz-Irp"/>
+                <constraint firstAttribute="bottom" secondItem="Z2M-XV-FbF" secondAttribute="bottom" id="KVw-1R-ByX"/>
+                <constraint firstItem="Z2M-XV-FbF" firstAttribute="top" secondItem="MDA-Pa-QSH" secondAttribute="top" id="N9Y-gd-m7p"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="206.87022900763358" y="107.3943661971831"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="account" width="19" height="19"/>
+        <image name="icon2" width="25" height="22"/>
+    </resources>
+</document>

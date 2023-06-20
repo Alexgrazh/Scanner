@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6NA-LK-FSx" customClass="AlertCreateFolder" customModule="iScanner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="214"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oZ-2X-nET">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="214"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="createFolder" translatesAutoresizingMaskIntoConstraints="NO" id="eV3-WT-eyz">
+                            <rect key="frame" x="127" y="24" width="46" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Cx9-JZ-cMQ"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="44L-QD-iky">
+                            <rect key="frame" x="45" y="119" width="211" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="211" id="AQ0-RB-Gzx"/>
+                                <constraint firstAttribute="height" constant="34" id="zNc-fM-xlo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7P-CB-5ia">
+                            <rect key="frame" x="0.0" y="175" width="150" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="39" id="LBh-U3-QMi"/>
+                                <constraint firstAttribute="width" constant="150" id="z8P-k4-kxZ"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="cancelBtnPressed:" destination="6NA-LK-FSx" eventType="touchUpInside" id="fKO-rc-r4l"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fr-Gj-r85">
+                            <rect key="frame" x="150" y="175" width="150" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="XFz-jL-u8J"/>
+                                <constraint firstAttribute="width" constant="150" id="em2-Mb-IuC"/>
+                                <constraint firstAttribute="height" constant="39" id="wKd-RN-DIC"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Create">
+                                <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="createBtnPressad:" destination="6NA-LK-FSx" eventType="touchUpInside" id="WEd-0j-0iI"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Folder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X8-fn-AaU">
+                            <rect key="frame" x="86" y="77" width="128" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="V9B-ph-bOX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.16470588235294117" green="0.18518528340000001" blue="0.4470832944" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="9X8-fn-AaU" firstAttribute="leading" secondItem="4oZ-2X-nET" secondAttribute="leading" constant="86" id="4Pm-99-83i"/>
+                        <constraint firstItem="9X8-fn-AaU" firstAttribute="top" secondItem="eV3-WT-eyz" secondAttribute="bottom" constant="8" symbolic="YES" id="4ae-O9-N6S"/>
+                        <constraint firstAttribute="bottom" secondItem="2Fr-Gj-r85" secondAttribute="bottom" id="6Kt-om-RDs"/>
+                        <constraint firstItem="I7P-CB-5ia" firstAttribute="top" secondItem="44L-QD-iky" secondAttribute="bottom" constant="22" id="6Vo-a3-Twa"/>
+                        <constraint firstItem="44L-QD-iky" firstAttribute="top" secondItem="9X8-fn-AaU" secondAttribute="bottom" constant="21" id="AGV-J7-rdk"/>
+                        <constraint firstItem="9X8-fn-AaU" firstAttribute="centerX" secondItem="4oZ-2X-nET" secondAttribute="centerX" id="B6I-xT-4Ho"/>
+                        <constraint firstAttribute="trailing" secondItem="eV3-WT-eyz" secondAttribute="trailing" constant="127" id="C37-oj-tJk"/>
+                        <constraint firstItem="eV3-WT-eyz" firstAttribute="top" secondItem="4oZ-2X-nET" secondAttribute="top" constant="24" id="EnY-Rn-N7y"/>
+                        <constraint firstAttribute="trailing" secondItem="2Fr-Gj-r85" secondAttribute="trailing" id="EuD-44-UBT"/>
+                        <constraint firstItem="44L-QD-iky" firstAttribute="top" secondItem="9X8-fn-AaU" secondAttribute="bottom" constant="21" id="NmW-be-YsO"/>
+                        <constraint firstItem="2Fr-Gj-r85" firstAttribute="top" secondItem="44L-QD-iky" secondAttribute="bottom" constant="22" id="Wz1-zD-wt6"/>
+                        <constraint firstItem="2Fr-Gj-r85" firstAttribute="leading" secondItem="I7P-CB-5ia" secondAttribute="trailing" id="Yy0-5B-kQm"/>
+                        <constraint firstAttribute="bottom" secondItem="I7P-CB-5ia" secondAttribute="bottom" id="j2L-cO-pHm"/>
+                        <constraint firstItem="I7P-CB-5ia" firstAttribute="leading" secondItem="4oZ-2X-nET" secondAttribute="leading" id="m4F-3e-sjw"/>
+                        <constraint firstItem="44L-QD-iky" firstAttribute="leading" secondItem="4oZ-2X-nET" secondAttribute="leading" constant="45" id="osE-1j-IyG"/>
+                        <constraint firstItem="eV3-WT-eyz" firstAttribute="centerX" secondItem="4oZ-2X-nET" secondAttribute="centerX" id="xPv-mx-FDV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2n7-zz-8vG"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4oZ-2X-nET" firstAttribute="trailing" secondItem="2n7-zz-8vG" secondAttribute="trailing" id="GMo-9W-ajJ"/>
+                <constraint firstAttribute="bottom" secondItem="4oZ-2X-nET" secondAttribute="bottom" id="XGy-xA-HjB"/>
+                <constraint firstItem="4oZ-2X-nET" firstAttribute="top" secondItem="6NA-LK-FSx" secondAttribute="top" id="abQ-f4-TxU"/>
+                <constraint firstItem="4oZ-2X-nET" firstAttribute="leading" secondItem="2n7-zz-8vG" secondAttribute="leading" id="eXq-ju-Zdk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="canselButton" destination="I7P-CB-5ia" id="8ll-6a-Sqo"/>
+                <outlet property="createButton" destination="2Fr-Gj-r85" id="90l-Cr-FJS"/>
+                <outlet property="imageCreateFolder" destination="eV3-WT-eyz" id="oNx-II-twq"/>
+                <outlet property="textFildAlert" destination="44L-QD-iky" id="IiN-Fj-Pmw"/>
+                <outlet property="titleAlertFolder" destination="9X8-fn-AaU" id="jWp-J2-pkI"/>
+                <outlet property="viewBg" destination="4oZ-2X-nET" id="aai-8G-B9S"/>
+            </connections>
+            <point key="canvasLocation" x="68.702290076335871" y="-48.591549295774648"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="createFolder" width="121" height="105"/>
+    </resources>
+</document>

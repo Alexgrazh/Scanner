@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>795564009938-tb9sn7jn2q4vinqblfl37bkkh363fn1j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.795564009938-tb9sn7jn2q4vinqblfl37bkkh363fn1j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCYeUTcsn2luY3PBfrHsekPpoS4K-AzYG4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>795564009938</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iScanner</string>
+	<key>PROJECT_ID</key>
+	<string>iscanner-e3f78</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iscanner-e3f78.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:795564009938:ios:6a609bc44898cb8083800b</string>
+</dict>
+</plist>

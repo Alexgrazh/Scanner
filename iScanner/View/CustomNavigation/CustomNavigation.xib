@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomNavigation" customModule="iScanner" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="h6h-SD-weZ" id="0vD-Rk-8yi"/>
+                <outlet property="leftButton" destination="0FH-AH-QNy" id="CDa-Nd-7sp"/>
+                <outlet property="titleLabel" destination="neT-cj-39a" id="nz1-Yh-ciS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3Tw-my-efl">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6h-SD-weZ">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="115"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FH-AH-QNy">
+                            <rect key="frame" x="17" y="66" width="27" height="47"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="47" id="UjN-4L-ZFe"/>
+                                <constraint firstAttribute="width" constant="27" id="h3k-IO-Z1T"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="arrowController"/>
+                            <connections>
+                                <action selector="pressedButton:" destination="-1" eventType="touchUpInside" id="btS-CI-GCD"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neT-cj-39a">
+                            <rect key="frame" x="123" y="79" width="146" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="146" id="0KV-e6-Ikd"/>
+                                <constraint firstAttribute="height" constant="21" id="K7r-3l-yvC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1589873433" green="0.189032793" blue="0.46262753010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="neT-cj-39a" firstAttribute="top" secondItem="h6h-SD-weZ" secondAttribute="top" constant="79" id="4mp-ea-57Z"/>
+                        <constraint firstAttribute="bottom" secondItem="neT-cj-39a" secondAttribute="bottom" constant="15" id="Vj3-K9-YYx"/>
+                        <constraint firstItem="0FH-AH-QNy" firstAttribute="leading" secondItem="h6h-SD-weZ" secondAttribute="leading" constant="17" id="c3F-lf-q9x"/>
+                        <constraint firstItem="neT-cj-39a" firstAttribute="leading" secondItem="0FH-AH-QNy" secondAttribute="trailing" constant="79" id="ddz-ey-fZ8"/>
+                        <constraint firstItem="0FH-AH-QNy" firstAttribute="top" secondItem="h6h-SD-weZ" secondAttribute="top" constant="66" id="tWF-ha-YNt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="esi-gV-0fh"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h6h-SD-weZ" secondAttribute="bottom" id="5RW-nx-2ak"/>
+                <constraint firstItem="h6h-SD-weZ" firstAttribute="top" secondItem="3Tw-my-efl" secondAttribute="top" id="Kno-yv-2iT"/>
+                <constraint firstItem="h6h-SD-weZ" firstAttribute="leading" secondItem="esi-gV-0fh" secondAttribute="leading" id="aYx-8V-UqQ"/>
+                <constraint firstItem="esi-gV-0fh" firstAttribute="trailing" secondItem="h6h-SD-weZ" secondAttribute="trailing" id="ehb-Px-xDW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="206.87022900763358" y="107.3943661971831"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowController" width="27" height="47"/>
+    </resources>
+</document>
