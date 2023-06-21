@@ -7,9 +7,9 @@
 
 import UIKit
 
-protocol CustomeNavigationDelegate: AnyObject {
-    func leftbuttonPressed()
-}
+//protocol CustomeNavigationDelegate: AnyObject {
+//    func leftbuttonPressed()
+//}
 
 class CustomNavigation: UIView {
     

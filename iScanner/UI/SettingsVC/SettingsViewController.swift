@@ -17,7 +17,7 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
 
-    var arrayNameCell: [[SettingsModel]] = [[SettingsModel(textName: "Restore Purchase")],[SettingsModel(textName: "Add to Siri"),SettingsModel(textName: "Start  App with"),SettingsModel(textName: "Picture Quality"),SettingsModel(textName: "Appearance")],[SettingsModel(textName: "My Email")],[SettingsModel(textName: "Manage ios Subsriptions"),SettingsModel(textName: "Privacy Policy"),SettingsModel(textName: "Terms of Use")]]
+    var arrayNameCell: [[SettingsModal]] = [[SettingsModal(textName: "Restore Purchase")],[SettingsModal(textName: "Add to Siri"),SettingsModal(textName: "Start  App with"),SettingsModal(textName: "Picture Quality"),SettingsModal(textName: "Appearance")],[SettingsModal(textName: "My Email")],[SettingsModal(textName: "Manage ios Subsriptions"),SettingsModal(textName: "Privacy Policy"),SettingsModal(textName: "Terms of Use")]]
         
     override func viewDidLoad() {
         super.viewDidLoad()

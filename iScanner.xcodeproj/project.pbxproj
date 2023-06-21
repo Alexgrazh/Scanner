@@ -73,6 +73,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7615AE12A43016B00A691D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AE22A4301A400A691D7 /* MyFilesVC */,
+				E7615AE32A4301C500A691D7 /* ActionVC */,
+				E776AFC62A41EC73008CFF83 /* SettingsVC */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E7615AE22A4301A400A691D7 /* MyFilesVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7D15C2629F8567E001E279B /* MyFilesController.swift */,
+				E7F5722B2A02E3CE00DBA64D /* SettingsViewBtn */,
+				E79C96872A0E900400F179B8 /* MyfilesSettingsCell */,
+				E7F572282A02CB5500DBA64D /* AlertCreateFolder */,
+				E7E8FA772A10150A0095EF11 /* SerchViewXib */,
+			);
+			path = MyFilesVC;
+			sourceTree = "<group>";
+		};
+		E7615AE32A4301C500A691D7 /* ActionVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7D15C3A29F85919001E279B /* ActionsController.swift */,
+			);
+			path = ActionVC;
+			sourceTree = "<group>";
+		};
 		E776AFB52A41A968008CFF83 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,29 +138,12 @@
 			path = AddSiriVC;
 			sourceTree = "<group>";
 		};
-		E79B21332A0D79A300A03E3B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E7D15C2629F8567E001E279B /* MyFilesController.swift */,
-				E7D15C3A29F85919001E279B /* ActionsController.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		E79B21342A0D79B600A03E3B /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				E776AFC62A41EC73008CFF83 /* SettingsVC */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		E79C96872A0E900400F179B8 /* Cells */ = {
+		E79C96872A0E900400F179B8 /* MyfilesSettingsCell */ = {
 			isa = PBXGroup;
 			children = (
 				E79C96882A0E902400F179B8 /* SettingsTableViewCell.swift */,
 			);
-			path = Cells;
+			path = MyfilesSettingsCell;
 			sourceTree = "<group>";
 		};
 		E7A657C529FC2D6B000EF41C /* Extension */ = {
@@ -160,33 +173,20 @@
 		E7D15C2129F8567E001E279B /* iScanner */ = {
 			isa = PBXGroup;
 			children = (
-				E7D15C3929F856C1001E279B /* Appliction */,
+				E7615AE12A43016B00A691D7 /* UI */,
 				E7D15C3829F856B4001E279B /* Model */,
 				E7D15C3729F856AE001E279B /* View */,
-				E7D15C3629F856A3001E279B /* Controllers */,
+				E7D15C3929F856C1001E279B /* Appliction */,
 				E7D15C3029F85687001E279B /* Info.plist */,
 				E7F572342A04263300DBA64D /* GoogleService-Info.plist */,
 			);
 			path = iScanner;
 			sourceTree = "<group>";
 		};
-		E7D15C3629F856A3001E279B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				E79B21342A0D79B600A03E3B /* Other */,
-				E79B21332A0D79A300A03E3B /* Core */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		E7D15C3729F856AE001E279B /* View */ = {
 			isa = PBXGroup;
 			children = (
 				E776AFBA2A41B9CC008CFF83 /* CustomNavigation */,
-				E79C96872A0E900400F179B8 /* Cells */,
-				E7F5722B2A02E3CE00DBA64D /* SettingsViewBtn */,
-				E7F572282A02CB5500DBA64D /* AlertCreateFolder */,
-				E7E8FA772A10150A0095EF11 /* SerchViewXib */,
 				E7D15C2829F8567E001E279B /* Main.storyboard */,
 			);
 			path = View;
