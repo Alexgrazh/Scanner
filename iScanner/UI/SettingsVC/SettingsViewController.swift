@@ -39,9 +39,6 @@ class SettingsViewController: UIViewController {
         navigationController?.isNavigationBarHidden = true
     }
     
-    @IBAction func sdfsdf(_ sender: Any) {
-        print("asdjhskfhksdjfhksdhflkadsjfahdsad")
-    }
     private func buttonConfigure(){
         singUpBatton.layer.cornerRadius = 7
     }
@@ -72,7 +69,12 @@ extension SettingsViewController: UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("sdkjfslkfsjdlfksdlkfsdjflskdj")
+        if indexPath.section == 1 && indexPath.row == 0 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                  let vc = storyboard.instantiateViewController(withIdentifier: "AddSiri") as! AddSiriViewController
+        
+                  navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
 }

@@ -56,7 +56,7 @@ class CustomNavigation: UIView {
     
     
     @IBAction func pressedButton(_ sender: Any) {
-        print("lksadslkjfkls")
+        print("Done")
         closeButtonAction?()
     }
     
