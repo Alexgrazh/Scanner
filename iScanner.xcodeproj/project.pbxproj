@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		E7615AE72A4303A900A691D7 /* AddtoSiriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AE52A4303A900A691D7 /* AddtoSiriTableViewCell.swift */; };
 		E7615AE82A4303A900A691D7 /* AddtoSiriTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7615AE62A4303A900A691D7 /* AddtoSiriTableViewCell.xib */; };
+		E7615AEB2A430C7600A691D7 /* StartAppWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AEA2A430C7600A691D7 /* StartAppWithViewController.swift */; };
+		E7615AEF2A430C9D00A691D7 /* StartAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AED2A430C9D00A691D7 /* StartAppTableViewCell.swift */; };
+		E7615AF02A430C9D00A691D7 /* StartAppTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7615AEE2A430C9D00A691D7 /* StartAppTableViewCell.xib */; };
+		E7615AF22A430D5500A691D7 /* StartAppWithModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AF12A430D5500A691D7 /* StartAppWithModel.swift */; };
+		E7615AF52A43112900A691D7 /* PictureQualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AF42A43112900A691D7 /* PictureQualityViewController.swift */; };
+		E7615AF92A43115F00A691D7 /* PictureQualityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AF72A43115F00A691D7 /* PictureQualityTableViewCell.swift */; };
+		E7615AFA2A43115F00A691D7 /* PictureQualityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7615AF82A43115F00A691D7 /* PictureQualityTableViewCell.xib */; };
+		E7615AFC2A43139200A691D7 /* PictureQualityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AFB2A43139200A691D7 /* PictureQualityModel.swift */; };
+		E7615AFF2A4329A500A691D7 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615AFE2A4329A500A691D7 /* AppearanceViewController.swift */; };
+		E7615B032A4329D000A691D7 /* AppearanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615B012A4329D000A691D7 /* AppearanceTableViewCell.swift */; };
+		E7615B042A4329D000A691D7 /* AppearanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7615B022A4329D000A691D7 /* AppearanceTableViewCell.xib */; };
+		E7615B062A432B4E00A691D7 /* AppearanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615B052A432B4E00A691D7 /* AppearanceModel.swift */; };
 		E776AFB72A41A980008CFF83 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E776AFB62A41A978008CFF83 /* Roboto-Medium.ttf */; };
 		E776AFB92A41B8E1008CFF83 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E776AFB82A41B8E1008CFF83 /* Roboto-Bold.ttf */; };
 		E776AFBE2A41BA6B008CFF83 /* CustomNavigation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776AFBD2A41BA6B008CFF83 /* CustomNavigation.xib */; };
 		E776AFC02A41C3AD008CFF83 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776AFBF2A41C3AD008CFF83 /* CustomNavigation.swift */; };
 		E776AFC92A41ECAE008CFF83 /* AddSiriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776AFC82A41ECAE008CFF83 /* AddSiriViewController.swift */; };
-		E776AFCB2A41ED87008CFF83 /* AddSiriModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776AFCA2A41ED87008CFF83 /* AddSiriModal.swift */; };
+		E776AFCB2A41ED87008CFF83 /* AddSiriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776AFCA2A41ED87008CFF83 /* AddSiriModel.swift */; };
 		E79B21362A0D79E500A03E3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B21352A0D79E500A03E3B /* SettingsViewController.swift */; };
 		E79C96892A0E902400F179B8 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79C96882A0E902400F179B8 /* SettingsTableViewCell.swift */; };
 		E7A657C729FC2DA4000EF41C /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A657C629FC2DA4000EF41C /* Extension + UIView.swift */; };
@@ -31,19 +43,31 @@
 		E7F5722A2A02CB6D00DBA64D /* AlertCreateFolder.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F572292A02CB6D00DBA64D /* AlertCreateFolder.xib */; };
 		E7F5722D2A02E3F200DBA64D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5722C2A02E3F200DBA64D /* SettingsView.swift */; };
 		E7F572312A02E43000DBA64D /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F572302A02E43000DBA64D /* SettingsView.xib */; };
-		E7F572332A04234400DBA64D /* SettingsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F572322A04234400DBA64D /* SettingsModal.swift */; };
+		E7F572332A04234400DBA64D /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F572322A04234400DBA64D /* SettingsModel.swift */; };
 		E7F572352A04263400DBA64D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7F572342A04263300DBA64D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7615AE52A4303A900A691D7 /* AddtoSiriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddtoSiriTableViewCell.swift; sourceTree = "<group>"; };
 		E7615AE62A4303A900A691D7 /* AddtoSiriTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddtoSiriTableViewCell.xib; sourceTree = "<group>"; };
+		E7615AEA2A430C7600A691D7 /* StartAppWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppWithViewController.swift; sourceTree = "<group>"; };
+		E7615AED2A430C9D00A691D7 /* StartAppTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppTableViewCell.swift; sourceTree = "<group>"; };
+		E7615AEE2A430C9D00A691D7 /* StartAppTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartAppTableViewCell.xib; sourceTree = "<group>"; };
+		E7615AF12A430D5500A691D7 /* StartAppWithModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppWithModel.swift; sourceTree = "<group>"; };
+		E7615AF42A43112900A691D7 /* PictureQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQualityViewController.swift; sourceTree = "<group>"; };
+		E7615AF72A43115F00A691D7 /* PictureQualityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQualityTableViewCell.swift; sourceTree = "<group>"; };
+		E7615AF82A43115F00A691D7 /* PictureQualityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureQualityTableViewCell.xib; sourceTree = "<group>"; };
+		E7615AFB2A43139200A691D7 /* PictureQualityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQualityModel.swift; sourceTree = "<group>"; };
+		E7615AFE2A4329A500A691D7 /* AppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		E7615B012A4329D000A691D7 /* AppearanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceTableViewCell.swift; sourceTree = "<group>"; };
+		E7615B022A4329D000A691D7 /* AppearanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppearanceTableViewCell.xib; sourceTree = "<group>"; };
+		E7615B052A432B4E00A691D7 /* AppearanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceModel.swift; sourceTree = "<group>"; };
 		E776AFB62A41A978008CFF83 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		E776AFB82A41B8E1008CFF83 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		E776AFBD2A41BA6B008CFF83 /* CustomNavigation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigation.xib; sourceTree = "<group>"; };
 		E776AFBF2A41C3AD008CFF83 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
 		E776AFC82A41ECAE008CFF83 /* AddSiriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiriViewController.swift; sourceTree = "<group>"; };
-		E776AFCA2A41ED87008CFF83 /* AddSiriModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiriModal.swift; sourceTree = "<group>"; };
+		E776AFCA2A41ED87008CFF83 /* AddSiriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiriModel.swift; sourceTree = "<group>"; };
 		E79B21352A0D79E500A03E3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E79C96882A0E902400F179B8 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		E7A657C629FC2DA4000EF41C /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
@@ -62,7 +86,7 @@
 		E7F572292A02CB6D00DBA64D /* AlertCreateFolder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertCreateFolder.xib; sourceTree = "<group>"; };
 		E7F5722C2A02E3F200DBA64D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E7F572302A02E43000DBA64D /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
-		E7F572322A04234400DBA64D /* SettingsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModal.swift; sourceTree = "<group>"; };
+		E7F572322A04234400DBA64D /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		E7F572342A04263300DBA64D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +140,60 @@
 			path = AddSiriTableViewCell;
 			sourceTree = "<group>";
 		};
+		E7615AE92A430C3700A691D7 /* StartAppVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AEA2A430C7600A691D7 /* StartAppWithViewController.swift */,
+				E7615AEC2A430C7C00A691D7 /* StartAppTableCell */,
+			);
+			path = StartAppVC;
+			sourceTree = "<group>";
+		};
+		E7615AEC2A430C7C00A691D7 /* StartAppTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AED2A430C9D00A691D7 /* StartAppTableViewCell.swift */,
+				E7615AEE2A430C9D00A691D7 /* StartAppTableViewCell.xib */,
+			);
+			path = StartAppTableCell;
+			sourceTree = "<group>";
+		};
+		E7615AF32A4310FE00A691D7 /* PictureQualityVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AF42A43112900A691D7 /* PictureQualityViewController.swift */,
+				E7615AF62A43113700A691D7 /* PictureQualityTableCell */,
+			);
+			path = PictureQualityVC;
+			sourceTree = "<group>";
+		};
+		E7615AF62A43113700A691D7 /* PictureQualityTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AF72A43115F00A691D7 /* PictureQualityTableViewCell.swift */,
+				E7615AF82A43115F00A691D7 /* PictureQualityTableViewCell.xib */,
+			);
+			path = PictureQualityTableCell;
+			sourceTree = "<group>";
+		};
+		E7615AFD2A43294C00A691D7 /* AppearanceVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7615AFE2A4329A500A691D7 /* AppearanceViewController.swift */,
+				E7615B002A4329AD00A691D7 /* AppearanceTableCell */,
+			);
+			path = AppearanceVC;
+			sourceTree = "<group>";
+		};
+		E7615B002A4329AD00A691D7 /* AppearanceTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E7615B012A4329D000A691D7 /* AppearanceTableViewCell.swift */,
+				E7615B022A4329D000A691D7 /* AppearanceTableViewCell.xib */,
+			);
+			path = AppearanceTableCell;
+			sourceTree = "<group>";
+		};
 		E776AFB52A41A968008CFF83 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +217,9 @@
 			children = (
 				E79B21352A0D79E500A03E3B /* SettingsViewController.swift */,
 				E776AFC72A41EC86008CFF83 /* AddSiriVC */,
+				E7615AE92A430C3700A691D7 /* StartAppVC */,
+				E7615AF32A4310FE00A691D7 /* PictureQualityVC */,
+				E7615AFD2A43294C00A691D7 /* AppearanceVC */,
 			);
 			path = SettingsVC;
 			sourceTree = "<group>";
@@ -209,8 +290,11 @@
 		E7D15C3829F856B4001E279B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E7F572322A04234400DBA64D /* SettingsModal.swift */,
-				E776AFCA2A41ED87008CFF83 /* AddSiriModal.swift */,
+				E7F572322A04234400DBA64D /* SettingsModel.swift */,
+				E776AFCA2A41ED87008CFF83 /* AddSiriModel.swift */,
+				E7615AF12A430D5500A691D7 /* StartAppWithModel.swift */,
+				E7615AFB2A43139200A691D7 /* PictureQualityModel.swift */,
+				E7615B052A432B4E00A691D7 /* AppearanceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,7 +405,10 @@
 				E7E8FA7D2A1015900095EF11 /* SearhViewXib.xib in Resources */,
 				E7D15C2F29F85687001E279B /* LaunchScreen.storyboard in Resources */,
 				E7615AE82A4303A900A691D7 /* AddtoSiriTableViewCell.xib in Resources */,
+				E7615AF02A430C9D00A691D7 /* StartAppTableViewCell.xib in Resources */,
+				E7615AFA2A43115F00A691D7 /* PictureQualityTableViewCell.xib in Resources */,
 				E7F572312A02E43000DBA64D /* SettingsView.xib in Resources */,
+				E7615B042A4329D000A691D7 /* AppearanceTableViewCell.xib in Resources */,
 				E7D15C2C29F85687001E279B /* Assets.xcassets in Resources */,
 				E776AFB92A41B8E1008CFF83 /* Roboto-Bold.ttf in Resources */,
 				E776AFBE2A41BA6B008CFF83 /* CustomNavigation.xib in Resources */,
@@ -338,20 +425,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E776AFCB2A41ED87008CFF83 /* AddSiriModal.swift in Sources */,
+				E776AFCB2A41ED87008CFF83 /* AddSiriModel.swift in Sources */,
 				E7615AE72A4303A900A691D7 /* AddtoSiriTableViewCell.swift in Sources */,
-				E7F572332A04234400DBA64D /* SettingsModal.swift in Sources */,
+				E7F572332A04234400DBA64D /* SettingsModel.swift in Sources */,
 				E7F5722D2A02E3F200DBA64D /* SettingsView.swift in Sources */,
 				E7D15C2729F8567E001E279B /* MyFilesController.swift in Sources */,
+				E7615AF52A43112900A691D7 /* PictureQualityViewController.swift in Sources */,
+				E7615B032A4329D000A691D7 /* AppearanceTableViewCell.swift in Sources */,
 				E7A657C729FC2DA4000EF41C /* Extension + UIView.swift in Sources */,
 				E7D15C2329F8567E001E279B /* AppDelegate.swift in Sources */,
 				E776AFC92A41ECAE008CFF83 /* AddSiriViewController.swift in Sources */,
 				E7D15C2529F8567E001E279B /* SceneDelegate.swift in Sources */,
 				E7F572272A02CB4400DBA64D /* AlertCreateFolder.swift in Sources */,
+				E7615AEB2A430C7600A691D7 /* StartAppWithViewController.swift in Sources */,
 				E7D15C3B29F85919001E279B /* ActionsController.swift in Sources */,
 				E776AFC02A41C3AD008CFF83 /* CustomNavigation.swift in Sources */,
+				E7615AFF2A4329A500A691D7 /* AppearanceViewController.swift in Sources */,
+				E7615AEF2A430C9D00A691D7 /* StartAppTableViewCell.swift in Sources */,
+				E7615AFC2A43139200A691D7 /* PictureQualityModel.swift in Sources */,
 				E79C96892A0E902400F179B8 /* SettingsTableViewCell.swift in Sources */,
+				E7615AF92A43115F00A691D7 /* PictureQualityTableViewCell.swift in Sources */,
 				E7E8FA792A1015650095EF11 /* SearchViewXib.swift in Sources */,
+				E7615B062A432B4E00A691D7 /* AppearanceModel.swift in Sources */,
+				E7615AF22A430D5500A691D7 /* StartAppWithModel.swift in Sources */,
 				E79B21362A0D79E500A03E3B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -482,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

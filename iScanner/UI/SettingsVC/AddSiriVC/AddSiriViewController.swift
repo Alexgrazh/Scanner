@@ -18,6 +18,7 @@ class AddSiriViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         makeTableView()
         
         navigationView.titleLabel.text = "Add to Siri"

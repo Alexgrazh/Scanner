@@ -74,6 +74,21 @@ extension SettingsViewController: UITableViewDelegate{
                   let vc = storyboard.instantiateViewController(withIdentifier: "AddSiri") as! AddSiriViewController
         
                   navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 1 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                  let vc = storyboard.instantiateViewController(withIdentifier: "StartApp") as! StartAppWithViewController
+        
+                  navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 2 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                  let vc = storyboard.instantiateViewController(withIdentifier: "PictureVC") as! PictureQualityViewController
+        
+                  navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 3 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                  let vc = storyboard.instantiateViewController(withIdentifier: "ApperanceVC") as! AppearanceViewController
+        
+                  navigationController?.pushViewController(vc, animated: true)
         }
     }
     

@@ -37,7 +37,7 @@ class MyFilesController: UIViewController {
         return view
     }()
     
-    private var settingsView:SettingsView = {
+    private var settingsView: SettingsView = {
         let settingsView : SettingsView = SettingsView.loadFromNib()
         settingsView.translatesAutoresizingMaskIntoConstraints = false
         return settingsView
@@ -63,8 +63,6 @@ class MyFilesController: UIViewController {
         configureViewMenu()
         
         setupVisualEffectView()
-        
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -140,16 +138,15 @@ class MyFilesController: UIViewController {
     }
     
     private func setSettings(){
+       
+        settingsView.center = view.center
         view.addSubview(settingsView)
         NSLayoutConstraint.activate([
             settingsView.leadingAnchor.constraint(equalTo: view.leadingAnchor,constant: 0),
             settingsView.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: 0),
             settingsView.topAnchor.constraint(equalTo: viewMenu.topAnchor,constant: 91),
-            settingsView.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant: 51),
-            settingsView.widthAnchor.constraint(equalToConstant: 393),
-            settingsView.heightAnchor.constraint(equalToConstant: 180)
+            settingsView.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant: 51)
         ])
-        viewMenu.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 0)
     }
     
     func animationSettingsIn(){
@@ -161,6 +158,7 @@ class MyFilesController: UIViewController {
             self.settingsView.transform = CGAffineTransform.identity
             self.singUpView.alpha = 0
             self.ViewNoDocuments.alpha = 0
+            self.viewMenu.layer.cornerRadius = 0
         }
     }
     
@@ -171,6 +169,7 @@ class MyFilesController: UIViewController {
             self.settingsView.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
             self.singUpView.alpha = 1
             self.ViewNoDocuments.alpha = 1
+            self.viewMenu.layer.cornerRadius = 15
         }
     }
     
@@ -178,10 +177,10 @@ class MyFilesController: UIViewController {
         
         if !isTapBatton {
             self.settingsView.alpha = 1
+            setSettings()
             animationSettingsIn()
             isTapBatton = true
-            setSettings()
-        }else {
+        } else {
             animationSettingsOut()
             self.settingsView.alpha = 0
             isTapBatton = false
